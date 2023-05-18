@@ -9,3 +9,5 @@ edition = "2021"
 crossbeam = "0.8.2"
 flume = "0.10.14"
 waitgroup = "0.1.2"
+tokio = { version = "1.28.1", features = ["time", "full"] }
+futures = "0.3.28"
